@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // Enable CORS
   app.enableCors({
-    origin: "http://localhost:4200",
+    origin: "https://evosite-frontend.onrender.com",
     credentials: true,
   });
 
